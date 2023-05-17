@@ -1,12 +1,32 @@
 <div id="<%= dom_id course %>">
   <p>
+    <strong>Name:</strong>
+    <%= course.name %>
+  </p>
+
+  <p>
+    <strong>Subject:</strong>
+    <%= course.subject %>
+  </p>
+
+  <p>
     <strong>Student:</strong>
-    <%= course.student_id %>
+    <%= course.student %>
+  </p>
+
+  <p>
+    <strong>Teacher:</strong>
+    <%= course.teacher %>
   </p>
 
   <p>
     <strong>Subject:</strong>
     <%= course.subject_id %>
+  </p>
+
+  <p>
+    <strong>Teacher:</strong>
+    <%= course.teacher_id %>
   </p>
 
 </div>
